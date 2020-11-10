@@ -1,0 +1,264 @@
+.main1 {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
+
+.left {
+    float: left;
+    width: 65%;
+    height: 500px;
+    margin-left: -40px;
+    list-style: none;
+    position: fixed;
+}
+
+.left img {
+    width: 100%;
+    height: 625px;
+}
+
+.right {
+    float: right;
+    width: 35%;
+    list-style: none;
+    height: 900px;
+}
+
+.right .head {
+    margin: 10px auto;
+    width: 100%;
+    height: 250px;
+    padding-top: 60px;
+}
+
+.right .head .ul {
+    list-style: none;
+    margin: 0px 0px 0px -70px;
+}
+
+.right img {
+    width: 300px;
+    height: 150px;
+}
+
+.right .font {
+    color: gray;
+    font-weight: 200;
+}
+
+.right .head2 {
+    margin-top: -40px;
+    margin-left: -20px;
+}
+
+.right .head2 h1 {
+    font-size: 30px;
+}
+
+.right .head2 h3 {
+    font-size: 15px;
+    color: gray;
+    font-weight: 400;
+    margin-top: -5px;
+}
+
+.content {
+    width: 85%;
+    margin: 20px -20px 0px;
+    height: 300px;
+}
+
+.content .btn-block2 {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0px 0px 15px 0px;
+    border: .3px solid lightgray;
+    padding: 20px;
+}
+
+.content .text {
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: gray;
+}
+
+.footer {
+    margin-top: 60%;
+    width: 100%;
+}
+
+.footer ul {
+    margin-left: -80px;
+    border-top: .3px solid lightgray;
+    list-style: none;
+}
+
+.footer ul li {
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+/* for small screen or tablets */
+
+@media screen and (max-width: 770px) {
+    .right {
+        float: right;
+        width: 35%;
+        list-style: none;
+        height: 800px;
+    }
+    .right .head {
+        margin: 10px auto;
+        width: 80%;
+        height: 250px;
+        padding-top: 60px;
+    }
+    .right .head .ul {
+        list-style: none;
+        margin: 0px 0px 0px -70px;
+    }
+    .right img {
+        width: 200px;
+        height: 100px;
+    }
+    .right .head2 {
+        margin-top: -50px;
+        margin-left: 0px;
+    }
+    .right .head2 h1 {
+        font-size: 22px;
+    }
+    .right .head2 h3 {
+        font-size: 12px;
+    }
+    .content {
+        width: 95%;
+        margin: 10px 0px 0px;
+        height: 300px;
+    }
+    .content #input1 {
+        height: 20px;
+        border-radius: 5px;
+        border: .3px solid lightgray;
+        padding: 20px;
+    }
+    .content #input2 {
+        height: 20px;
+        border-radius: 5px;
+        margin: 0px;
+        border: .3px solid lightgray;
+        padding: 20px;
+    }
+    .content .btn-block {
+        height: 40px;
+        padding: 5px;
+        font-size: 12px;
+    }
+    .content .text {
+        font-size: 10px;
+    }
+    .footer {
+        margin-top: 40%;
+        float: right;
+        width: 82%;
+    }
+    .footer ul {
+        padding-top: 10px;
+    }
+    .footer ul li {
+        font-size: 10px;
+    }
+    .left {
+        float: left;
+        width: 71%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .left {
+        float: left;
+        width: 0%;
+    }
+    .left img {
+        display: none;
+    }
+    .right {
+        float: center;
+        width: 100%;
+        height: 800px;
+    }
+    .right .head {
+        margin: 10px auto;
+        width: 100%;
+        height: 250px;
+        padding-top: 60px;
+    }
+    .right .mx-auto {
+        width: 200px;
+    }
+    .right .head .ul {
+        margin: 0px 0px 0px -70px;
+    }
+    .right img {
+        width: 250px;
+        height: 120px;
+    }
+    .right .head2 {
+        margin-top: -50px;
+        /* margin-left: 120px; */
+        text-align: center;
+    }
+    .right .head2 h1 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .right .head2 h3 {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .content {
+        width: 100%;
+        margin: 10px 0px 0px;
+        height: 300px;
+        padding-top: 20px;
+        padding: 20px;
+    }
+    .content #input1 {
+        height: 50px;
+        border-radius: 5px;
+        border: .3px solid lightgray;
+        padding: 20px;
+    }
+    .content #input2 {
+        height: 50px;
+        border-radius: 5px;
+        margin: 0px;
+        border: .3px solid lightgray;
+        padding: 20px;
+    }
+    .content .btn-block {
+        height: 50px;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .content .text {
+        font-size: 10px;
+    }
+    .footer {
+        margin-top: 60%;
+        float: right;
+        width: 100%;
+    }
+    .footer ul {
+        padding-top: 10px;
+    }
+    .footer ul li {
+        font-size: 13px;
+    }
+}
